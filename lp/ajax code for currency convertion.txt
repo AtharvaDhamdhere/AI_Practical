@@ -1,0 +1,17 @@
+public class subtraction  {
+      public static decimal method_p(){
+        
+         Double exchangeRate = 74.5; //Assuming 1 USD = 74.5 INR
+
+
+    Double dollarAmount = 100.0;
+
+    
+     Double rupeeAmount = dollarAmount * exchangeRate;
+
+ 
+    System.debug('Rupee amount: ' + rupeeAmount);
+    return rupeeAmount;
+
+   }
+}
